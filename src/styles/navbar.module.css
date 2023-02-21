@@ -1,7 +1,7 @@
 .navbar{
     width: 100%;
     height: 10vh;
-    background-color: #8a2be2;
+    background-color: white;
     display: flex;
     justify-content: space-between;
 }
@@ -23,6 +23,7 @@
     align-items: center;
     font-family: 'Lobster';
     font-size: 15px;
+    letter-spacing: 1px;
 }
 
 .items{
@@ -42,14 +43,14 @@
 
 .link{
     text-decoration: none;
-    color: white;
+    color: #20123A;
     font-family: 'Lobster';
     font-size: 15px;
 }
 
 .link_items{
     text-decoration: none;
-    color: whitesmoke;
+    color: #693BCC;
     font-family: 'NotoSans';
     font-size: 15px;
     margin: 10px;
@@ -57,7 +58,7 @@
 }
 
 .link_items:hover{
-    color: #cfcfcf;
+    color: #9a73ee;
 }
 
 @media screen and (max-width: 600px) {

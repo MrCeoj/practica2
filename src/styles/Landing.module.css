@@ -1,0 +1,10 @@
+.landing_container{
+    display: block;
+    margin: 10px 150px;
+    background-image: url('/public/images/picture.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 550px;
+    border-radius: 30px;
+    box-shadow: 10px 10px 30px 10px hsla(34, 100%, 50%, 0.5);
+}

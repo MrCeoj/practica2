@@ -1,8 +1,11 @@
 import React from 'react'
+import Item from '../components/Item'
 
 function Fleet() {
   return (
-    <div>Fleet</div>
+    <div>
+      <Item />
+    </div>
   )
 }
 

@@ -1,0 +1,51 @@
+.item{
+    height: 90vh;
+    background-color: #CB1F9C;
+}
+
+.item_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100%;
+}
+
+.logo_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_image{
+    height: 350px;
+    width: 350px;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.logo_label{
+    font-family: 'Lobster';
+    letter-spacing: 5px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+
+.item_info_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.item_info {
+    text-align: justify;
+    border-radius: 15px;
+    margin: 40px;
+    padding: 50px;
+    color: whitesmoke;
+    background-color: #F35F1C;
+    box-shadow: 5px 5px 20px 5px rgba(255, 255, 255, 0.3);
+    font-size: 14px;
+    font-family: 'NotoSans';
+}

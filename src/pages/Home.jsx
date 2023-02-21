@@ -1,7 +1,10 @@
+import Landing from "../components/Landing"
 
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Landing />
+    </div>
   )
 }
 

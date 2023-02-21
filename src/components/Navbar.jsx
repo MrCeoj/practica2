@@ -8,7 +8,7 @@ export default function Navbar() {
     <div>
       <nav className={styles.navbar}>
         <div className={styles.home}>
-          <img src="/icon.png" alt="Mi padre" />
+          <img src="/images/icon.png" alt="Shrek" />
           <div className={styles.title}>
             <Link to="/" className={styles.link}>
               <h1>Development Tools for Front-end</h1>

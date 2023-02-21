@@ -6,12 +6,15 @@
     box-sizing: border-box;
 }
 
+p{
+    color: #20123A;
+    color: #693BCC;
+    color: #CB1F9C;
+    color: #F35F1C;
+}
+
 /*
 Hex Color Codes
 
-#20123A
-#693BCC
-#CB1F9C
-#F35F1C
 
 */
