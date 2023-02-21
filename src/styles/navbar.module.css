@@ -1,0 +1,36 @@
+.N{
+    width: 100%;
+    height: 10vh;
+    background-color: #8a2be2;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home{
+    display:flex;
+    width: 50%;
+    padding: 10px;
+}
+
+.img{
+    position: absolute;
+    margin: 20px;
+    height: 20px;
+}
+
+.tit{
+    margin: 10px;
+    height: 100%;
+    align-items: center;
+}
+
+.items{
+    width: 50%;
+    display:flex;
+}
+
+.ul{
+    display: flex;
+    list-style: none;
+}
+
