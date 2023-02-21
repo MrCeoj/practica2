@@ -1,4 +1,4 @@
-.N{
+.navbar{
     width: 100%;
     height: 10vh;
     background-color: #8a2be2;
@@ -14,14 +14,15 @@
 
 .img{
     position: absolute;
-    margin: 20px;
     height: 20px;
 }
 
-.tit{
+.title{
     margin: 10px;
     height: 100%;
     align-items: center;
+    font-family: 'Lobster';
+    font-size: 15px;
 }
 
 .items{
@@ -32,5 +33,47 @@
 .ul{
     display: flex;
     list-style: none;
+    margin: auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
+.link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Lobster';
+    font-size: 15px;
+}
+
+.link_items{
+    text-decoration: none;
+    color: whitesmoke;
+    font-family: 'NotoSans';
+    font-size: 15px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.link_items:hover{
+    color: #cfcfcf;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar{
+        flex-direction: column;
+        height: 20vh;
+    }
+    .home{
+        width: 100%;
+        justify-content: center;
+    }
+    .items{
+        width: 100%;
+        justify-content: center;
+    }
+    .ul{
+        flex-direction: column;
+    }
+}

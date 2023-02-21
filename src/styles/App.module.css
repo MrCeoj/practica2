@@ -1,11 +1,17 @@
+@import url('./FontFace.css');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: NotoSans;
-    src: url("../../public/fonts/NotoSans-LightItalic.ttf");
-}
+/*
+Hex Color Codes
 
+#20123A
+#693BCC
+#CB1F9C
+#F35F1C
+
+*/
